@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>برامج أصول - Programs Ousoual</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #14532d;
+            font-family: 'Cairo', sans-serif;
+            color: #fff;
+        }
+
+        .profile-box {
+            max-width: 420px;
+            margin: 30px auto;
+            background: #1f6b3a;
+            border-radius: 20px;
+            padding: 25px 20px 30px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        .company-name {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .company-desc {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 20px;
+            margin: 0 6px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #a7f3d0;
+        }
+
+        .section-title {
+            margin: 25px 0 10px;
+            font-weight: bold;
+        }
+
+        .offer-card {
+            background: #fef3c7;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .offer-card:hover {
+            transform: scale(1.02);
+        }
+
+        .offer-card img {
+            width: 100%;
+            display: block;
+        }
+
+        .offer-footer {
+            background: #84cc16;
+            color: #fff;
+            font-weight: bold;
+            padding: 8px;
+            font-size: 13px;
+        }
+
+        .link-btn {
+            background: #4ade80;
+            color: #064e3b;
+            border-radius: 15px;
+            padding: 14px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .link-btn:hover {
+            background: #22c55e;
+            color: #fff;
+        }
+
+        .link-btn i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-box">
+
+    <!-- Logo -->
+    <img src="logo.jpg" class="logo" alt="Logo">
+
+    <!-- Name -->
+    <div class="company-name">برامج أصول - Programs Ousoual</div>
+
+    <!-- Description -->
+    <div class="company-desc">
+       للجميع المواقع التجارية للتواصل معنا من خلال الاتصال او الواتساب علي الارقام التالية : 0537959508 - 0540542380
+    </div>
+
+    <!-- Social -->
+    <div class="social-icons mb-3">
+        <a href="mailto:mohamedkajja123@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.facebook.com/people/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A3%D8%B5%D9%88%D9%84-Programs-Ousoual/61578129874347/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/programsousoual/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@programs.ousoual0"><i class="bi bi-tiktok"></i></a>
+        <a href="https://x.com/programsousoual"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-snapchat"></i></a>
+        <a href="https://wa.me/+966537959508"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.youtube.com/@programsousoual2024"><i class="bi bi-globe"></i></a>
+        <a href="tel:+966537959508"><i class="bi bi-telephone"></i></a>
+        <a href="https://www.youtube.com/@programsousoual2024" target="_blank"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <!-- Title -->
+    <div class="section-title">نجاحك مسؤوليتنا | دعم فني سريع</div>
+
+    <!-- Clickable Image -->
+    <div class="offer-card" onclick="openOffer()">
+        <img src="cover.png" alt="Offer">
+        <div class="offer-footer">اليكم تفاصيل اعمالنا</div>
+    </div>
+
+<div class="link-btn" style="cursor: default;">
+    <div class="text-end">
+        <div style="font-size:15px;">📍 فرع مكة المكرمة</div>
+        <div style="font-size:13px; opacity:.9;">
+            الشرايع – مخطط 13
+        </div>
+    </div>
+    <i class="bi bi-geo-alt-fill"></i>
+</div>
+
+<div class="link-btn" style="cursor: default;">
+    <div class="text-end">
+        <div style="font-size:15px;">📍 فرع الطائف</div>
+        <div style="font-size:13px; opacity:.9;">
+            شارع شهار
+        </div>
+    </div>
+    <i class="bi bi-geo-alt-fill"></i>
+</div>
+
+
+    <a href="https://whatsapp.com/channel/0029Vb0lFnx9MF970gN7Wv0e" class="link-btn">
+        <span>الانضمام الي قناة الواتساب</span>
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+</div>
+
+<script>
+    function openOffer() {
+        window.open("https://example.com", "_blank");
+    }
+</script>
+
+</body>
+</html>
